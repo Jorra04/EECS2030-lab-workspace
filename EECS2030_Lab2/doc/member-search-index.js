@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"eecs2030.lab2","c":"Nickel","l":"CENTS"},{"p":"eecs2030.lab2","c":"Nickel","l":"Nickel()","url":"%3Cinit%3E()"}]
