@@ -155,6 +155,7 @@ public final class Complex {
 
 
 		return Math.hypot(this.real, this.imag);
+//		return Math.sqrt((Math.pow(this.real, 2) + Math.pow(this.imag, 2)));   won't work due to overflow issues.
 	}
 
 	/**
@@ -183,12 +184,12 @@ public final class Complex {
 	@Override
 	public int hashCode() {
 
-		double step1 = this.real * 9999;
-		double step2 = this.imag * 99;
-		double step3 = step1 + step2;
-		int step4 = (int) step3;
+		double inc1 = this.real * 9999;
+		double inc2 = this.imag * 99;
+		double result = inc1 + inc2;
+		int finalVal = (int) result;
 
-		return step4;
+		return finalVal;
 	}
 
 	/**
