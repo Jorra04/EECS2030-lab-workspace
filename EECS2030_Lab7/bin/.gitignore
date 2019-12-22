@@ -1,0 +1,5 @@
+/DictionaryFullException.class
+/WordAlreadyExistsException.class
+/WordDefinitionPair.class
+/WordNotInDictionaryException.class
+/WordAlreadyExistsInDictionaryException.class
